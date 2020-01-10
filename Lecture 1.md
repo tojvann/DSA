@@ -147,7 +147,7 @@ The memory can be thought of as an array.
 
 - NOTE: Here y is an _lvalue_; it is a pointer that holds the address of 20 consecutive cells in the memory(starting address).
 
-- It can be assigned a value. The new operator return as address that is store in y.
+- It can be assigned a value. The new operator return an address that is store in y.
 
 - We can write:
 
