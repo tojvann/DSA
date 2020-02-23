@@ -3,13 +3,13 @@ using namespace std;
 #define ll long long
 
 void prime_sieve(int* p){
-    for(int i = 3; i <= 1000000; i+=2)
+    for(int i = 3; i <= 100000; i+=2)
     p[i] = 1;
-    for(ll i = 3; i <= 1000000; i+=2)
+    for(ll i = 3; i <= 100000; i+=2)
     {
         if(p[i]==1)
         {
-            for(ll j = i*i; j<= 1000000; j+=i)
+            for(ll j = i*i; j<= 100000; j+=i)
             p[j] = 0;
         }
     }
@@ -20,7 +20,7 @@ void prime_sieve(int* p){
 int main(){
     int n;
     cin >> n;
-    int p[10000007] = {0};
+    int p[1000007] = {0};
     prime_sieve(p);
     for (int i = 0; i <= n; i++)
     {
