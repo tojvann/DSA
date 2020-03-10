@@ -264,6 +264,8 @@ Two views of Circularly-Linked Lists
 
  
 
+Note: Doubly Linked list can also be made into Circularly linked list.
+
 ## Josephus Problem
 
 - A case where Circular-linked list comes in handy is the solution of the Josephus Problem.
@@ -272,4 +274,10 @@ Two views of Circularly-Linked Lists
 - They start a count with person 1 and go in clockwise direction and skip 3. Person 4 reached is eliminated.
 - The count starts with the fifth and the next person to go is fourth in the count.
 - Eventually a single person remains.
-- 
+
+  
+
+![](https://imgur.com/mwjb2Br.png)
+
+![](https://imgur.com/5JQsLH1.png)
+
